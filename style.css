@@ -8,6 +8,12 @@
 
 }
 
+@media (30em <= width <= 80em) {
+  /* ... */
+}
+
+
+
 #navbar{
     position: sticky;
     top: 0;
@@ -225,14 +231,15 @@ section{
   .cont-fm {
     background-color: #fff;
     border-radius: 10px;
-    padding: 30px;
+    padding: 25px;
+    justify-content:center;
     margin-top: 30px;
-    width: 500px;
+    width: 330px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
   }
   
-  .title {
+  .title {  
     font-size: 24px;
     font-weight: 600;
     text-align: center;
